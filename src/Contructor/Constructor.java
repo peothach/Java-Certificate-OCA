@@ -1,8 +1,10 @@
+package Contructor;
+
 abstract class Animal {
     private String name;
 
 
-//    Animal(){
+//    Contructor.Animal(){
 //
 //    }
 
@@ -20,7 +22,7 @@ class Dog extends Animal {
 
     /**
      * It will be error if you don't call constructor of parent class.
-     * But if you have constructor without param it will be ok because by default it always call constructor without param you don't need add super()
+     * But if you have constructor without param it will be ok because by default it always call constructor without param you don't need to add super()
      * And in this case parent class have constructor with param and constructor without param will not automotive declare in class
      * @param breed
      */

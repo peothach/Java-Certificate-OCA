@@ -1,3 +1,5 @@
+package Predicate;
+
 import java.util.Locale;
 
 public class Predicate {

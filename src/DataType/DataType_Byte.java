@@ -1,3 +1,5 @@
+package DataType;
+
 public class DataType_Byte {
     public static void main(String[] args) {
         byte var = 100;

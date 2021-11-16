@@ -1,3 +1,5 @@
+package PassByValue;
+
 class Message {
     String msg = "Happy New Year!";
 

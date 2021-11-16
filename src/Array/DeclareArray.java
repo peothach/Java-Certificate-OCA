@@ -1,3 +1,5 @@
+package Array;
+
 public class DeclareArray {
     public static void main(String[] args) {
         // 1

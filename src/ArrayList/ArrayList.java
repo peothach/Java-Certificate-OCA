@@ -1,3 +1,5 @@
+package ArrayList;
+
 import java.util.List;
 
 public class ArrayList {
@@ -9,9 +11,13 @@ public class ArrayList {
         list.add(3, 'O');
 
         if(list.contains('O')){
-            // 'O' will be converted to int
-            // int is default of all value except String
-            list.remove('0');
+            /**
+             * remove method just allow pass Object
+             * If Character pass like an Object, it will be converted to Integer
+             * 'O' => 79 (Integer)
+             * It looks like arr['O'] == arr[79] => It will be thrown IndexOfBoundsException.
+             */
+            list.remove('O');
         }
 
         list.forEach(i -> System.out.println(i));

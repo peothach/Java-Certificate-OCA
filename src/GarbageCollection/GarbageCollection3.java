@@ -1,3 +1,5 @@
+package GarbageCollection;
+
 /**
  * Case 3:Assigning null
  * When you assign a null value to a reference of an object it is no longer reachable

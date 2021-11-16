@@ -1,3 +1,5 @@
+package GarbageCollection;
+
 /**
  * Case 1: Object inside a method
  * In Java a method is stored in the stack memory. When you call a method,

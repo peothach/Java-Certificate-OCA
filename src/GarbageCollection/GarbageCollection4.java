@@ -1,3 +1,5 @@
+package GarbageCollection;
+
 /**
  * Case 4: Anonymous Object
  * Actually, the reference of the anonymous object will not be stored anywhere

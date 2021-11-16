@@ -1,3 +1,5 @@
+package Exception;
+
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
@@ -8,7 +10,7 @@ abstract class Super {
 class Sub extends Super {
     /**
      * Let's talk about throws and throw in exception
-     * m1 method using keyword 'throws' 1 exception, and we have 2 case.
+     * m1 method using keyword 'throws' an exception, and we have 2 case.
      * Case 1: If you 'throws' a checked exception (IOException),
      * all method call m1() method will be caught IOException or 'throws' IOException in head method
      * Case 2: If you 'throws' an unchecked exception (RuntimeException) you will not 'throws' whatever. It up to you

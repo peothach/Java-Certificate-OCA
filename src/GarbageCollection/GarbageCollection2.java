@@ -1,3 +1,5 @@
+package GarbageCollection;
+
 /**
  * Case 2:Reassignment
  * When you reassign a value (another object) to an existing reference variable,

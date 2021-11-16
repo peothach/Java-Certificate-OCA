@@ -1,3 +1,5 @@
+package IntegerCache;
+
 public class IntegerCaches {
     public static void main(String[] args) {
         /**
