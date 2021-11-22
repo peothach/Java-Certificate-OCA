@@ -4,6 +4,7 @@ import java.util.Locale;
 
 public class Predicate {
     public static void main(String[] args) {
+        //Predicate: thuộc tính
         String [] arr = {"A", "ab", "bab", "Aa", "bb", "baba", "aba", "Abab"};
 
         java.util.function.Predicate<String> p =
